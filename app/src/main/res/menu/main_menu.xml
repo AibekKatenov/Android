@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="sync"
+        android:id="@+id/sync"
+        android:icon="@drawable/ic_sync"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        />
+    <item
+        android:title="search"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        />
+    <item
+        android:title="changer"
+        android:id="@+id/changer"
+        android:icon="@drawable/ic_changer"
+        app:showAsAction="always"
+        android:orderInCategory="3"
+        />
+</menu>
